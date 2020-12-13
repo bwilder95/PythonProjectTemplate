@@ -5,6 +5,7 @@
 - Setup a python 3.x venv (usually in `.venv`)
   - You can run `./scripts/create-venv.sh` to generate one
 - `pip3 install --upgrade pip`
+- `python -m pip install pip-tools` to access pip-compile
 - Install dev requirements `pip3 install -r requirements.dev.txt`
 - Install requirements `pip3 install -r requirements.txt`
 - `pre-commit install`
